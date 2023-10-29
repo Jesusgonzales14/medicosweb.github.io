@@ -1,0 +1,38 @@
+[{
+  "_id": 1,
+  "colaborador": "Jordy Fabrizio Farias",
+  "carrera": "Adm de Sistemas",
+  "Turno": "Mañana"
+},
+{
+  "_id": {
+    "$oid": "653d8a9a40008582406a2bbd"
+  },
+  "colaborador": "Daniel Pari Martinez",
+  "carrera": "Adm de Sistemas",
+  "Turno": "Mañana"
+},
+{
+  "_id": {
+    "$oid": "653d8acf40008582406a2bbe"
+  },
+  "colaborador": "Sebastian Huaman",
+  "carrera": "Adm de Sistemas",
+  "Turno": "Mañana"
+},
+{
+  "_id": {
+    "$oid": "653d8adf40008582406a2bbf"
+  },
+  "colaborador": "Jesus Gonzales Vela",
+  "carrera": "Adm de Sistemas",
+  "Turno": "Mañana"
+},
+{
+  "_id": {
+    "$oid": "653d8af140008582406a2bc0"
+  },
+  "colaborador": "Manuel Barreto",
+  "carrera": "Adm de Sistemas",
+  "Turno": "Mañana"
+}]

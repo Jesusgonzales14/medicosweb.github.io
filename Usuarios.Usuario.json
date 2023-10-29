@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "653d8cef40008582406a2bc9"
+  },
+  " usuario ": "JordyFarias",
+  "contraseña": "jordyfarias123",
+  "correo": "jordyfarias@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "653d900140008582406a2bd5"
+  },
+  " usuario ": "DanielPari",
+  "contraseña": "danielpari123",
+  "correo": "danielpari@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "653d90ae40008582406a2bd8"
+  },
+  " usuario ": "SebastianNavarro",
+  "contraseña": "sebastiannavarro123",
+  "correo": "sebastiannavarro@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "653d90b040008582406a2bd9"
+  },
+  " usuario ": "JesusGonzales",
+  "contraseña": "jesusgonzales123",
+  "correo": "jesusgonzales@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "653d90b240008582406a2bda"
+  },
+  " usuario ": "Manuel Barreto",
+  "contraseña": "manuelbarreto23",
+  "correo": "manuelbarreto@gmail.com"
+}]

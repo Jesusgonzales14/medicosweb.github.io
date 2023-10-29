@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "652ea31a6dcacac785dd704b"
+  },
+  "nombre": "Consultas médicas",
+  "descripcion": "Consulta (personal o telefónica) a un profesional médico titulado."
+},
+{
+  "_id": {
+    "$oid": "653d932e40008582406a2be0"
+  },
+  "nombre": "Atención enfermería",
+  "descripcion": "El proceso de atención de enfermería consiste en la aplicación del método científico en la asistencia."
+},
+{
+  "_id": {
+    "$oid": "653d935340008582406a2be1"
+  },
+  "nombre": "Laboratorio clínico",
+  "descripcion": "Diagnosticar diferentes patologías y realizar los estudios necesarios."
+},
+{
+  "_id": {
+    "$oid": "653d937740008582406a2be2"
+  },
+  "nombre": "Examen médico",
+  "descripcion": "Este examen acredita tu situación médica y psicológica."
+},
+{
+  "_id": {
+    "$oid": "653d939640008582406a2be3"
+  },
+  "nombre": "Atención pediátrica",
+  "descripcion": "Atención especializada al paciente (lactante, niño y adolescente"
+},
+{
+  "_id": {
+    "$oid": "653d943940008582406a2be4"
+  },
+  "nombre": "Análisis de Laboratorio",
+  "descripcion": "Realizamos análisis clínicos en general (sangre, orina, heces, etc."
+},
+{
+  "_id": {
+    "$oid": "653d945640008582406a2be5"
+  },
+  "nombre": "Atención ginecológica",
+  "descripcion": "Especialidad que atiende de forma integral la salud de la mujer a lo largo de su vida."
+},
+{
+  "_id": {
+    "$oid": "653d947340008582406a2be6"
+  },
+  "nombre": "Atención de urgencias",
+  "descripcion": "atención de urgencia a pacientes con lesiones traumáticas, enfermedades graves u otros problemas"
+}]

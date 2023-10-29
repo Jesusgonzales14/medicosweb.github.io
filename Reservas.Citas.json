@@ -1,0 +1,46 @@
+[{
+  "_id": 1,
+  "nombre": "Consultas medicas",
+  "pago": "35soles",
+  "tiempo": "30mn"
+},
+{
+  "_id": {
+    "$oid": "653d873340008582406a2bb5"
+  },
+  "nombre": "Examen medico",
+  "pago": "56soles",
+  "tiempo": "45mn"
+},
+{
+  "_id": {
+    "$oid": "653d873540008582406a2bb6"
+  },
+  "nombre": "Pruebas de laboratorio y examen de detencion",
+  "pago": "25soles",
+  "tiempo": "25mn"
+},
+{
+  "_id": {
+    "$oid": "653d873840008582406a2bb7"
+  },
+  "nombre": "Psicoterapia",
+  "pago": "65soles",
+  "tiempo": "50mn"
+},
+{
+  "_id": {
+    "$oid": "653d8b2c40008582406a2bc2"
+  },
+  "nombre": "Atencion pediatrica",
+  "pago": "40soles",
+  "tiempo": "30mn"
+},
+{
+  "_id": {
+    "$oid": "653d8b2f40008582406a2bc3"
+  },
+  "nombre": "Visita a domiciliio",
+  "pago": "20soles",
+  "tiempo": "50mn"
+}]
