@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e9f4f9;
+}
+
+#encabezado{
+    width: 100%;
+    background-color: #fffefb;
+    border-spacing: 0;
+}
+#encabezado #columna1{
+    width: 20%;
+}
+#columna1 img{
+    width: 150px;
+}
+
+#encabezado #columna2{
+    width: 60%;
+}
+#columna2  ul li{
+    display: flex;
+    float: left;
+    margin-top: 0px;
+    padding: 0px 10px;
+}
+ ul li a{
+    text-decoration: none;
+    color: #326887;
+    padding: 7px 22px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ ul li a:hover{
+    border: 1px solid #448db6;
+    border-radius: 10px;
+    color: white;
+    background-color: #71aaca;
+    transition: 100ms;
+}
+#menuInicio{
+    border: 1px solid #448db6;
+    border-radius: 10px;
+}
+
+#encabezado #columna3{
+    width: 20%;
+}
+#columna3 a{
+    text-decoration: none;
+    color: #326887;
+    padding: 7px 20px;
+    width: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#columna3 a:hover{
+    color: #448db6;
+}
+#subEncabezado{
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+
+#eslogan{    
+    border-spacing: 0;
+    width: 100%;
+    margin-top: 3px;
+    height: auto;
+    background-color: #e9f4f9;
+}
+#eslogan #bordeSuperior{
+    width: 60%;
+    border-top: 1px solid #0a4a6e;
+    padding: 40px;
+}
+#eslogan #bordeSuperior i{
+    font-size: 30px;
+    color: #0a4a6e;
+}
+
+#contenidos{
+    border-spacing: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#contenido1,
+#contenido2{
+    width: 50%;
+    background-color: #fffefa;
+}
+#contenido1 strong{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0a4a6e;
+    font-size: 23px;
+    padding-bottom: 5px;
+    line-height: 40px;
+    font-style: italic;
+}
+#contenido1 button{
+    color: white;
+    font-size: 11px;
+    margin-top: 15px;
+    padding: 11px 15px;
+    background-color: #0a4a6e;
+    border: 1px solid #0a4a6e;
+}
+#contenido1 button:hover{
+    background-color: #fffefa;
+    color: #0a4a6e;
+    transition: 200ms;
+}
+
+#esloganServicios h2,
+#esloganServicios p{
+    line-height: 25px;
+}
+#esloganServicios h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    color: #0a4a6e;
+}
+#esloganServicios p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0a4a6e;
+}
+
+#tblServicios{
+    width: 100%;
+    background-color: #e9f4f9;
+    border-spacing: 0;
+}
+.subserviciostxt{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    color: #0a4a6e;
+}
+
+#carrusel{
+    height: 340px;
+}
+
+#cajaReferencia{
+    background-color: #fffefa;
+    width: fit-content;
+}
+#cajaReferencia p{
+    color: #0a4a6e;
+    padding: 30px 70px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.subFuter{
+    height: 200px;
+    width: 25%;
+    border: 1px solid #0a4a6e;
+    background-color: #fffefb;
+}
+.subFuter h3{
+    color: #0a4a6e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.subFuter p{
+    color: #0a4a6e;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    background-color: #fffefb;
+    border-top: 1px solid #0a4a6e;
+}
+#footer p{
+    color: #0a4a6e;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+/*BOTOM DE CHAT BOTS*/
+.Vamos_chatear{
+    cursor: pointer;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+
+    width: 200px;
+    height: 50px;
+    background-color: #0A4A6E;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Vamos_chatear > i{
+    position: relative;
+}
+
+.Vamos_chatear > i::after{
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+    width: 8px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/*CHATBOTS INTERFAZ DE BOTOM*/
+.Interfaz_chat_bots{
+    position: fixed;
+    
+    bottom: 18px;
+    right: 18px;
+    border: 0.1px solid #0A4A6E;
+    border-radius: 25px;
+    width: 350px;
+    height: 500px;
+
+    display: flex;
+    display: none;
+    flex-direction: column;
+}
+.cabecera_chat{
+    width: 100%;
+    height: 100px ;
+    background-color: #0A4A6E;
+    border-radius: 25px 25px 0px 0px ;
+    display: flex;
+    
+}
+.cuerpo_chat{
+    width: 100%;
+    height: 300px ;
+    background-color: #C2D1D7;
+}
+.footer_chat{
+    width: 100%;
+    height: 100px ;
+    background-color: white;
+    border-radius:0px 0px  25px 25px ;
+}
+.cabecera_img{
+    width: 80px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera_img div{
+    width: 50px;
+    height: 50px;
+
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.cabecera_img div::after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 70%;
+    right: 1px;
+    border-radius: 50%;
+    background-color: green;
+}
+.cabecera_img div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.footer_chat{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer_chat input{
+    width: 280px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    color: #0A4A6E;
+}
+.footer_chat i{
+    font-size: 18px;
+    color: #1d1d1d;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.footer_chat i:hover{
+    color: #0A4A6E;
+}
+.cabecera_cabeza{
+    width: 190px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.cabecera_cabeza h1{
+    font-size: 18px;
+    color: white;
+}
+.cabecera_cabeza p {
+    font-size: 12px;
+    color: white;
+    display: flex;
+}
+.cabecera_button{
+    width: 80px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cabecera_button button{
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #0A4A6E;
+    color: white;
+    background-color: #0A4A6E;
+}
