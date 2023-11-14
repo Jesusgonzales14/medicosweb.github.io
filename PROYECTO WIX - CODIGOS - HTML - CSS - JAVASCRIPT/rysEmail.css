@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #fffefa;
+}
+#encabezado{
+    width: 100%;
+    height: 100px;
+}
+#encabezado tr td #salir{
+    color: #0a4a6e;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    float: right;
+    margin-right: 5%;
+    padding: 30px 0px;
+}
+#cajas{
+    display: block;
+}
+
+#contenido{
+    width: 50%;
+    height: fit-content;
+}
+
+#tablaContenido tr td h2{
+    color: #448db6;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-bottom: 27px;
+}
+#iniciarSesion{
+    color: #448db6;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#formulario label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5290ba;
+}
+#formulario input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #5290ba;
+    outline:none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #3a6c8d;
+}
+#formulario input:hover{
+    border-bottom: 1px solid #3a6c8d;
+
+}
+#btnRegister{
+    width: 100%;
+    border: none;
+    color: #3a9bdf;
+    background-color: #0a4a6e;
+    padding: 10px;
+    cursor: pointer;
+}
+#btnRegister:hover{
+    color: white;
+    transition: 300ms;
+}

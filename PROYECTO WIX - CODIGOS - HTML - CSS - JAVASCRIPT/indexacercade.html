@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/Logo.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/dad8acddb4.js" crossorigin="anonymous"></script>
+</head>
+<body background="imagenes/fondo2.png" style="background-repeat: no-repeat;background-size: 100% 100%;" >
+    <table border="0" id="encabezado">
+        <tr id="subEncabezado">
+            <td id="columna1">
+                <center><a href=""><img src="imagenes/Logo.png" alt=""></a></center>
+            </td>
+            <td id="columna2">
+                    <center><ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="menuReservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a id="menuInicio"  href="">Acerca de</a></li>
+                    </ul></center>
+            </td>
+            <td class="caja" id="columna3">                
+                <center><a style="font-size: 18px;" href="registerD.html">
+                    <i style="font-size: 30px;" class="fa-solid fa-circle-user"></i>
+                    Iniciar sesión</a></center>
+            </td>
+        </tr>
+    </table>
+    
+    <table style="width: 100%; border: 1;">
+        <tr>
+            <td colspan="3" id="carrusel" >
+                <center><div id="cajaReferencia">
+                    <h2 id="Titulo" >Acerca de nosotros</h2>
+                    <p>Desde sus inicios el Policlínico Salud-Vital persigue un fin altruista <br>orientado al servicio de la humanidad, valorando la vida y brindando <br>los mejores servicios de salud a precios accesibles. <br>Nos distingue una vocación de servicio y trato humanizado al paciente. <br>Asimismo, damos un gran valor al trabajo en equipo, con la finalidad de <br>facilitar el trabajo entre las diversas áreas.
+                    <br>La responsabilidad social siempre ha estado presente en la vida <br>institucional del Policlínico Salud-Vital desde su creación. Perseguimos <br>un fin altruista que nos empuja constantemente a realizar acciones de <br>beneficencia y auxilio mutuo, como campañas integrales de salud al <br>alcance de la economía del público en general.</p>
+                </div></center>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="4" id="informacion">
+                <center><p>saludvitalservice.contact@gmail<br>©2023 por SALUD VITAL.</p></center>
+            </td>
+        </tr>
+    </table>
+    <!-- button de chat bots -->
+    <button class="Vamos_chatear" onclick="Abrir_chat_bots()" type="button">
+        <i class="fa-regular fa-message"></i>
+        <p>¡Vamos a chatear!</p>
+    </button>
+    <div class="Interfaz_chat_bots">
+        <div class="cabecera_chat">
+            <section class="cabecera_img">
+                <div><img src="imagenes/Logo.png" alt=""></div>
+            </section>
+            <section class="cabecera_cabeza">
+                <h1>SaludVital</h1>
+                <p>Te respondmeos tan pronto com..</p>
+            </section>
+            <section class="cabecera_button">
+                <button onclick="Cerrar_chat_bots()">X</button>
+            </section>
+        </div>
+        <div class="cuerpo_chat">
+
+        </div>
+        <div class="footer_chat">
+            <input class="input_chat" onkeyup="cambiar_iconos()" type="text">
+            <i  class="fa-regular fa-face-smile"></i>
+            <i id="click" class="fa-solid fa-paperclip"></i>
+       </div>
+    </div>
+    
+    
+    <script src="menuReservas.js"></script>
+</body>
+</html>
+
