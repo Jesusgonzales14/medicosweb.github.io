@@ -1,0 +1,175 @@
+@media screen and (max-width : 1200px ){
+    .content{
+        width: 100%;
+
+    }
+    .contact-wrapper{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img{
+        width: 100%;
+    }
+    .imgform{
+        width: 100%;
+    }
+    .logo_imagen{
+        position: relative;
+        top: 0;
+        left: 500px;
+    }
+    
+    .hamburguer_flex{
+        z-index: 200;
+        position: absolute;
+        top: 65px;
+        right:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .hamburguer_flex button{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        
+    }
+    .hamburguer_flex button{
+        width: 40px;
+        height: 3px;
+        background-color:#477791;   
+        outline: none;
+        border: none;
+        position: relative;
+        transition: .3s ease-in-out;
+
+    }
+    .hamburguer_flex button::after{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        background-color: #477791;
+        top: -15px;
+        left: -5px;
+        transition: .2s ease-in-out;
+    }
+
+    .hamburguer_flex button::before{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        background-color: #477791;
+        top: 15px;
+        left: -5px;
+        transition: .2s ease-in-out;
+    }
+     /*CLASLIST CERRAR_HAMBURGER PARA ASI QUE SE PONGA EL NAVEGADOR VISIBLE*/
+    .cerrar_hamburger button{
+       background-color: white;
+    
+        
+    } 
+    .cerrar_hamburger button::after {
+            transform:translateY(15px)  rotate(-45deg);
+    }
+    .cerrar_hamburger button::before {
+        transform:translateY(-15px)  rotate(45deg);
+    }
+    /*MENUS DE NAVEGADOR*/
+   
+
+    .reservas_menus ul {
+        
+        height: max-content;
+
+        font-size: 24px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .iniciar_sesion{
+       
+        width: max-content;
+        height: max-content;
+    }
+    .reservas_menus{
+        overflow: hidden;
+        pointer-events: none;
+        opacity: 0;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: 99;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .opacityIniciar{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .iniciar_sesion{
+        opacity: 0;
+        position: fixed;
+        top: 50px;
+        right: 50%;
+        transform: translateX(50%);
+        
+        z-index: 99;
+    }
+    .opacitySesionIniciar{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .iniciar_sesion ul i {
+        font-size: 35px;
+    }
+
+    .ventana_emergente{
+        z-index: 150;
+    }
+    .ventana_emergente{
+        z-index: 999;
+    }
+    .contenedor_Reservas{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width : 650px) {
+    .hamburguer_flex{
+        top: 21px;
+        right: -15px;
+        
+    }
+    .navegador{
+        height: 100px;
+        
+        
+    }
+    .logo_imagen{
+        position: relative;
+        top: 0;
+        left: 180px;
+        background-color: red;
+        height:90px;
+        width: 90px;
+       
+    }
+    .logo_imagen img {
+        height: 90px;
+        width: 90px;
+    }
+}
